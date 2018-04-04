@@ -1,6 +1,6 @@
 /*******************************************************************************
- *   Ledger Stellar App
- *   (c) 2017 Ledger
+ *   Ledger Casinocoin App
+ *   (c) 2018 Ledger
  *
  *  adapted from https://github.com/mjg59/tpmtotp/blob/master/base32.h
  *

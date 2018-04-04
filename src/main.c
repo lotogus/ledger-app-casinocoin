@@ -1,6 +1,6 @@
 /*******************************************************************************
-*   Ledger Stellar App
-*   (c) 2017 Ledger
+*   Ledger Casinocoin App
+*   (c) 2018 Ledger
 *
 *  Licensed under the Apache License, Version 2.0 (the "License");
 *  you may not use this file except in compliance with the License.
@@ -219,7 +219,7 @@ const bagl_element_t ui_idle_blue[] = {
 
     // BADGE_RIPPLE.GIF
     {{BAGL_ICON, 0x00, 135, 178, 50, 50, 0, 0, BAGL_FILL, 0, COLOR_BG_1, 0, 0},
-     &C_badge_stellar,
+     &C_badge_casinocoin,
      0,
      0,
      0,
@@ -230,7 +230,7 @@ const bagl_element_t ui_idle_blue[] = {
     {{BAGL_LABELINE, 0x00, 0, 270, 320, 30, 0, 0, BAGL_FILL, 0x000000,
       COLOR_BG_1,
       BAGL_FONT_OPEN_SANS_LIGHT_16_22PX | BAGL_FONT_ALIGNMENT_CENTER, 0},
-     "Open Stellar wallet",
+     "Open Casinocoin wallet",
      0,
      0,
      0,
@@ -315,7 +315,7 @@ const ux_menu_entry_t menu_about[] = {
     };
 
 const ux_menu_entry_t menu_main[] = {
-    {NULL, NULL, 0, &C_icon_stellar, "Use wallet to", "view accounts", 33, 12},
+    {NULL, NULL, 0, &C_icon_casinocoin, "Use wallet to", "view accounts", 33, 12},
     {menu_settings, NULL, 0, NULL, "Settings", NULL, 0, 0},
     {menu_about, NULL, 0, NULL, "About", NULL, 0, 0},
     {NULL, os_sched_exit, 0, &C_icon_dashboard, "Quit app", NULL, 50, 29},

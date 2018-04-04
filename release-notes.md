@@ -2,7 +2,7 @@
 
 ## v2.0 Ledger Blue support
 
-This release features full support for displaying the details for all operations possible on the Stellar network and adds Ledger Blue support.
+This release features full support for displaying the details for all operations possible on the Casinocoin network and adds Ledger Blue support.
 Operations added are: path payment, create passive offer, set options, allow/revoke trust, account merge, inflation, and manage data.
 
 - Ledger Blue support
