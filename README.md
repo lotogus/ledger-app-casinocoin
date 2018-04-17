@@ -14,6 +14,9 @@ To build and install the app on your Nano S or Blue you must set up the Ledger N
 
 Alternatively, you can set up the Vagrant Virtualbox Ledger environment maintained [here](https://github.com/fix/ledger-vagrant). This sets up an Ubuntu virtual machine with the Ledger build environment already set up. Note that if you are on a Mac, at the time of this writing this seems to be the only way to build and load the app.
 
+Like another alternative you can use Docker for building this project using [this](https://github.com/lotogus/ledger-build-docker) in that project there is an example of how to build this project [here](https://github.com/lotogus/ledger-build-docker#compile-example)
+
+
 The command to compile and load the app onto the device is:
 
 ```$ make load```
@@ -22,9 +25,11 @@ To remove the app from the device do:
 
 ```$ make delete```
 
+
 ## Testing
 
 The `./test` directory contains files for testing the xdr transaction parser and some printing utilities. To build and execute the tests run `./test.sh`.
+
 
 ### XDR parsing
 
