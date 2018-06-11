@@ -1,3 +1,4 @@
+# DEPRECATED PROJECT, CHECK FOR https://github.com/lotogus/blue-app-csc
 # Stellar app for the Ledger Nano S and Ledger Blue
 
 ## Introduction
